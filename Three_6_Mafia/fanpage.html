@@ -28,7 +28,7 @@
     }
 /* background */
     body {
-        background-color: lightgray;
+        background: url("https://www.toptal.com/designers/subtlepatterns/patterns/concrete_seamless.png");
         max-width:1400px;
         margin:0 auto;
         
@@ -143,6 +143,10 @@
     text-decoration: none;
     }
 
+    hr {
+        width: 800px;
+    }
+
     </style>
 
     </head>
@@ -165,6 +169,7 @@
         <!-- top quote -->
     <div id="pump"><h2> "You done seen the guage pump bout to see a Chevy trunk"</h2></div>
 
+    <hr id="hr">
     <br>
     <!-- Home about paragraph -->
     <div id="divHome" style="display:block"><h3>The most known, yet unknown, dirty south rap group from the streets of Memphis. They came together in 1991 and lit up the scene through the 2000's. A short revival of the group occured in the 2010's but it was short lived. Three 6 Mafia has won the Academy Award (2006), they have two platnimum albums (2000 and 2005), and they have sold over 5 million albums worldwide. Rest in Peace Lord Infamous and Koopsta Knicca.</h3>
@@ -295,6 +300,8 @@
             document.getElementById("divMembers").style.display = "none";
             document.getElementById("divAlbums").style.display = "none";
             document.getElementById("divContact").style.display = "none";
+            document.getElementById("pump").style.display = "block";
+            document.getElementById("hr").style.display = "block";
             
 }
         //to display members only
@@ -303,6 +310,8 @@
             document.getElementById("divMembers").style.display = "block";
             document.getElementById("divAlbums").style.display = "none";
             document.getElementById("divContact").style.display = "none";
+            document.getElementById("pump").style.display = "block";
+            document.getElementById("hr").style.display = "block";
             
 }
         //to display albums only
@@ -311,6 +320,8 @@
             document.getElementById("divMembers").style.display = "none";
             document.getElementById("divAlbums").style.display = "block";
             document.getElementById("divContact").style.display = "none";
+            document.getElementById("pump").style.display = "block";
+            document.getElementById("hr").style.display = "block";
             
 }
         //to display contact only
@@ -320,6 +331,9 @@
             document.getElementById("divAlbums").style.display = "none";
             document.getElementById("divContact").style.display = "block";
             document.getElementById("pump").style.display = "none";
+            document.getElementById("hr").style.display = "none";
+
+            
 
 }
 
