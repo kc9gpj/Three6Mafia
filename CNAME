@@ -1,1 +1,1 @@
-mafia6.com
+www.mafia6.com
